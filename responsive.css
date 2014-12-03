@@ -1,0 +1,25 @@
+body {
+  max-width: 1000px;
+}
+
+#banner,
+#social {
+  font-size: 24px;
+  width: 66%
+  margin-right: 1%;
+  float: left;
+}
+
+@media sceen and (max-width: 480px) {
+  #main-content {
+  float: none;
+  width: 100%;
+}
+nav li,
+nav a, {
+  display: block;
+}
+}
+
+
+http://www.sitepoint.com/build-a-responsive-mobile-friendly-website-from-scratch-dive-into-the-code/
