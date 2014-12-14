@@ -1,0 +1,15 @@
+/*CSS for Video*/
+#container {
+  border: 1px solid red;
+  width: 800px;
+  text-align: center;
+}
+
+#vid {
+  margin-bottom: 25px;
+  margin: 0 auto;
+  width: 100% !important;
+  height: auto !important;
+  padding-bottom: 56.25%;
+  position: center;
+}

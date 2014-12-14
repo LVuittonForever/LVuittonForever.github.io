@@ -1,0 +1,293 @@
+
+/* Layout */
+
+.body {
+	clear: both;
+	margin: 0 auto;
+	max-width: 800px;
+	}
+img.right figure.right {
+	float: right;
+	margin: 0 0 2em 2em;
+	}
+img.left, figure.left {
+	float: right;
+	margin: 0 0 2em 2em;
+	}
+
+.container {
+
+
+}
+
+
+/* Header */
+
+/*Responsive Design @ <480px
+@media sceen and (max-width: 480px) {
+#main-content {
+float: none;
+width: 100%;
+}
+}
+*/
+
+#banner {
+	margin: 0 auto;
+	padding: 2.5em 0 0 0;
+}
+
+/* Banner */
+	#banner h1 {font-size: 3.571em; line-height: 1.0;}
+	#banner h1 a:link, #banner h1 a:visited {
+		color: #6161d9;
+		display: block;
+		font: Oswald;
+		font-weight: bold;
+		margin: .5em 0 .5em .2em;
+		text-decoration: none;
+		width: 427px;
+	}
+
+	#banner h1 a:hover, #banner h1 a:active {
+		background: none;
+		color: #6161d9;
+		text-shadow: none;
+	}
+
+	#banner h1 strong {font-size: 0.36em; font-weight: normal;}
+
+  	/* Main Nav*/
+	#banner nav {
+		background: #000305;
+		font-family: Oswald, 'PT Sans', sans-serif;
+		font-size: 1.143em;
+		height: 40px;
+		line-height: 30px;
+		margin: 0 auto 2em auto;
+		padding: 0;
+		text-align: center;
+		width: 800px;
+
+		border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	}
+
+	#banner nav ul {
+		list-style: none;
+		margin: 0 auto;
+		width: 800px;
+		visibility: visible;
+		opacity:1;
+		position: relative;
+		float:left;
+
+		}
+	#banner nav li {float: left; display: inline; margin: 0;}
+
+	#banner nav a:link, #banner nav a:visited {
+		color: #fff;
+		display: inline-block;
+		height: 30px;
+		padding: 5px 1.5em;
+		text-decoration: none;
+	}
+	#banner nav a:hover, #banner nav a:active,
+	#banner nav .active a:link, #banner nav .active a:visited {
+		background: #6161d9;
+		color: #fff;
+		text-shadow: none !important;
+	}
+
+/* Body */
+body {
+		background: #F5F4EF;
+		color: #000305;
+		font-size: 87.5%; /* Base font size: 14px */
+		font-family: Oswald, 'PT Sans', sans-serif;
+		line-height: 1.429;
+		margin: 0;
+		padding: 0;
+		text-align: left;
+	}
+/* Headings */
+h1 {
+	font-family: 'Oswald', sans-serif;
+  border-style: solid;
+  border-top, bottom: thin #ff0000;
+  text-align: center;
+}
+h2 {font-family: Oswald, 'PT Sans' sans-serif; color: #6161d9; font-size: 1.571em}	/* 22px */
+h3 {font-size: 1.429em}	/* 20px */
+h4 {font-size: 1.286em}	/* 18px */
+
+h2, h3, h4 {
+	font-weight: 400;
+	line-height: 1.1;
+	margin-bottom: .8em;
+}
+
+/* Anchors */
+a {outline: 0;}
+a img {border: 0px; text-decoration: none;}
+a:link, a:visited {
+	color: #000305;
+	padding: 0 1px;
+	text-decoration: underline;
+}
+a:hover, a:active {
+	background-color: none;
+	color: #6161d9;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px #333;
+}
+
+/* Paragraphs */
+p {margin-bottom: 1.143em;}
+* p:last-child {margin-bottom: 1; border-bottom: 1px solid #F4E3E3;}
+
+strong, b {font-weight: bold;}
+em, i {font-style: italic;}
+
+/* Lists */
+ul {
+	list-style: outside disc;
+	margin: 1em 0 1.5em 1.5em;
+}
+
+ol {
+	list-style: outside decimal;
+	margin: 1em 0 1.5em 1.5em;
+}
+
+dl {margin: 0 0 1.5em 0;}
+dt {font-weight: bold;}
+dd {margin-left: 1.5em;}
+
+/* Social Bar */
+#extras {margin: 0 auto 3em auto; overflow: hidden;}
+
+#extras ul {list-style: none; margin: 0;}
+#extras li {border-bottom: 1px solid #fff;}
+#extras h2 {
+	color: #6161d9;
+	font-size: 1.429em;
+	margin-bottom: .25em;
+	padding: 0 3px;
+}
+
+#extras a:link, #extras a:visited, h2 a:hover, #extras h2 a:active {
+	background: none;
+	color: #444;
+	display: block;
+	border-bottom: 1px solid #F4E3E3;
+	text-decoration: none;
+	padding: .3em .25em;
+}
+
+#extras a:hover, #extras a:active {
+	background: none;
+	color: #6161d9;
+	text-shadow: none;
+}
+#extras .social {
+		float: right;
+		width: 175px;
+	}
+
+/*Resume CSS Breakdown*/
+/* COMMON CLASSES */
+	.break { clear:both; }
+
+/* WRAPPER */
+	#wrapper { width:800px; margin:40px auto; }
+
+/* CONTENT */
+	#content { }
+	#content p { margin:20px; }
+	#content h3 { margin: 10px; }
+
+/* MENU */
+	#menu {
+		float: relative;
+		margin:40px 0 0 150px;
+		opacity: 0.5;
+		}
+	#menu ul { list-style:none;
+	display: block;
+	}
+	#menu ul li { display: inline-block; float:left; margin-bottom:20px; }
+
+	#menu ul li:first-child a {
+		-moz-border-radius-topleft: 12px;
+		-webkit-border-top-left-radius:12px;
+		}
+
+
+	#menu ul li:last-child a {
+		-moz-border-radius-topright: 12px;
+		-webkit-border-top-right-radius:12px;
+		}
+
+	#menu ul li a {
+		padding:20px;
+		background: #6161d9;
+		/*opacity: 0.5;*/
+		text-decoration: none;
+		font: bold 14px Helvetica, Sans-Serif;
+		color: #fff;
+		text-shadow: #eee 0px 0px 2px;
+		-moz-border-radius-topright: 12px;
+		-moz-border-radius-topleft: 12px;
+		-moz-border-radius-bottomright: 12px;
+		-moz-border-radius-bottomleft: 12px;
+		-webkit-border-top-right-radius:12px;
+		-webkit-border-top-left-radius:12px;
+		-webkit-border-bottom-right-radius:12px;
+		-webkit-border-bottom-left-radius:12px;
+		}
+
+		/* hover state */
+	#menu ul li a:hover {
+			background: #6161d9;
+			color: #fff;
+			text-shadow: none !important;
+			}
+/*
+					/* another RGBA background, now with an opacity of 0.8 */
+					#menu ul li a.active {
+						background: #000000 !important; }
+
+					/* main contents with RGBA background (same colour as active tab) and three rounded corners */
+					#main {
+						clear: both;
+						background: #6161d9;
+						opacity: 0.5;
+						width:500px;
+						margin-left:150px;
+						-moz-border-radius-topright: 12px;
+						-moz-border-radius-topleft: 12px;
+						-moz-border-radius-bottomright: 12px;
+						-moz-border-radius-bottomleft: 12px;
+						-webkit-border-top-right-radius:12px;
+						-webkit-border-top-left-radius:12px;
+						-webkit-border-bottom-right-radius:12px;
+						-webkit-border-bottom-left-radius:12px;
+						}
+
+						/* header with a text-shadow */
+						#main h2 {
+							text-transform:uppercase;
+							padding:20px 0 0 20px;
+							color:#eee;
+							text-shadow: #000 0px 0px 2px;
+							}
+						#main h3 {
+							color: #00000;
+							padding: 5px;
+						}
+						#main p {
+							padding-bottom: 0;
+							color:#ddd;
+							}
