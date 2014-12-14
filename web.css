@@ -14,12 +14,15 @@ img.left, figure.left {
 	float: right;
 	margin: 0 0 2em 2em;
 	}
+	#container{
+		width: 435px;
+		
+	}
+	#floated{
+		float: right;
+		width: 150px;
 
-.container {
-
-
-}
-
+	}
 
 /* Header */
 
@@ -145,7 +148,7 @@ a:hover, a:active {
 
 /* Paragraphs */
 p {margin-bottom: 1.143em;}
-* p:last-child {margin-bottom: 1; border-bottom: 1px solid #F4E3E3;}
+/** p:last-child {margin-bottom: 1; border-bottom: 1px solid #F4E3E3;}*/
 
 strong, b {font-weight: bold;}
 em, i {font-style: italic;}
@@ -201,23 +204,27 @@ dd {margin-left: 1.5em;}
 	.break { clear:both; }
 
 /* WRAPPER */
-	#wrapper { width:800px; margin:40px auto; }
+	#wrapper { width:800px; margin:20px; margin-left:30px; }
 
 /* CONTENT */
-	#content { }
+	#content {  }
 	#content p { margin:20px; }
 	#content h3 { margin: 10px; }
 
 /* MENU */
 	#menu {
-		float: relative;
-		margin:40px 0 0 150px;
-		opacity: 0.5;
+		/*float: relative;*/
+		margin: 0 auto 2em auto;
+
+		/*opacity: 0.5;*/
 		}
 	#menu ul { list-style:none;
 	display: block;
+
+	padding: 0px;
+	margin: 0px;
 	}
-	#menu ul li { display: inline-block; float:left; margin-bottom:20px; }
+	#menu ul li { display: inline-block; float:left; margin-bottom:20px; margin-top:20px; }
 
 	#menu ul li:first-child a {
 		-moz-border-radius-topleft: 12px;
@@ -232,10 +239,10 @@ dd {margin-left: 1.5em;}
 
 	#menu ul li a {
 		padding:20px;
-		background: #6161d9;
+		background: black;
 		/*opacity: 0.5;*/
 		text-decoration: none;
-		font: bold 14px Helvetica, Sans-Serif;
+		font-family: Oswald, 'PT Sans', sans-serif;;
 		color: #fff;
 		text-shadow: #eee 0px 0px 2px;
 		-moz-border-radius-topright: 12px;
@@ -252,18 +259,20 @@ dd {margin-left: 1.5em;}
 	#menu ul li a:hover {
 			background: #6161d9;
 			color: #fff;
+			/*opacity: 0.5;*/
 			text-shadow: none !important;
 			}
 /*
 					/* another RGBA background, now with an opacity of 0.8 */
 					#menu ul li a.active {
-						background: #000000 !important; }
+						background: #6161d9 !important; }
 
 					/* main contents with RGBA background (same colour as active tab) and three rounded corners */
 					#main {
 						clear: both;
 						background: #6161d9;
-						opacity: 0.5;
+						/*opacity: 0.5;*/
+						/*border: 1px solid;*/
 						width:500px;
 						margin-left:150px;
 						-moz-border-radius-topright: 12px;
@@ -288,6 +297,6 @@ dd {margin-left: 1.5em;}
 							padding: 5px;
 						}
 						#main p {
-							padding-bottom: 0;
+							padding-bottom: 5px;
 							color:#ddd;
 							}
