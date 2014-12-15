@@ -11,12 +11,12 @@
 {
   color: black;
   background: transparent;
-  font-size 12 pt;
+  font-size: 12;
   font-family: "Times New Roman", serif;
   }
 
 @page {
-  margin: 0.5in; }
+  margin: 0.5; }
 
 
 nav{
@@ -30,16 +30,16 @@ section {
 }
 
 aside {
-  border: 1px solid #333;
+  border: 1 solid #333;
   background: #efefef;
   float: right;
-  margin: 1em;
-  padding: 1em;
-  width: 236px;
+  margin: 1;
+  padding: 1;
+  width: 236;
 }
 
 footer {
-  border-top: 1px solid #333;
+  border-top: 1 solid #333;
   clear: left;
 }
 

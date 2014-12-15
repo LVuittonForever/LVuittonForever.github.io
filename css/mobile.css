@@ -1,0 +1,44 @@
+@media only screen and (max-width: 320px) {
+  html {
+    -webkit-text-size-adjust: none;
+  }
+  body {
+    background: none;
+    font-size: 24px;
+    max-width: 320px;
+    padding: 0;
+    margin: 0;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+  }
+  ul {
+    list-style-type: none;
+  }
+
+  ul li {
+    padding: 0.25em 0;
+  }
+
+  a:link, a:visited {
+    text-decoration: underline;
+    color: #0000CC;
+  }
+  a:hover, a:active {
+    text-decoration: underline;
+    color: #660066;
+  }
+
+  .content { float: none; }
+  #content img {
+    max-width: 250px;
+  }
+  .center {
+    width: 100% !important;
+    text-align: center;
+  }
+
+  .selector {
+    padding: 0;
+    margin: 0;
+  }
