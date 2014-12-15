@@ -16,13 +16,13 @@ img.left, figure.left {
 	}
 	#container{
 		width: 435px;
-		
-	}
-	#floated{
-		float: right;
-		width: 150px;
 
 	}
+	#floated{
+		padding: 8px;
+		float: right;
+		width: 140px;
+		}
 
 /* Header */
 
@@ -271,7 +271,7 @@ dd {margin-left: 1.5em;}
 					#main {
 						clear: both;
 						background: #6161d9;
-						/*opacity: 0.5;*/
+						/*opacity: 0.7;*/
 						/*border: 1px solid;*/
 						width:500px;
 						margin-left:150px;
